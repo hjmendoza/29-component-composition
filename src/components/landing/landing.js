@@ -7,7 +7,7 @@ export default class Landing extends Component {
         return (
             <Fragment>
                 <h2>Notes App</h2>
-                <p>This is an app for creating and storing notes. Go to Dashboard to get started.</p>
+                <p>This is an app for creating and updating notes. Go to Dashboard to get started.</p>
             </Fragment>
         );
     }

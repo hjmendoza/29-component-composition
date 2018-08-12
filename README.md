@@ -35,9 +35,13 @@
 * Displays a delete button
   * `onClick` the note should be removed from the application state
 
+###### NoteUpdateForm 
+* Inherits a note through props and onSubmit updates the App's state with an updated note when user double clicks. 
+
+
 #### To Get App Started
 * Clone down code
 * Run `npm i`
 * Run `npm run watch` which will open up a window at `localhost:8080`
-* Go to Dashboard to begin adding notes!
+* Go to Dashboard to begin adding and editing notes!
 * Run `npm run test` to run tests
