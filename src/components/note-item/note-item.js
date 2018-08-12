@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React from "react";
 
 import NoteUpdateForm from '../note-update-form/note-update-form.js'
 
-export default class NoteItem extends Component {
+export default class NoteItem extends React.Component {
 
   constructor(props) {
     super(props);
